@@ -4,8 +4,8 @@ import numpy as np
 import os
 
 # Đường dẫn tới folder chứa ảnh đầu vào và folder chứa ảnh đầu ra
-input_folder = 'input_images/'  # Đảm bảo thay thế bằng đường dẫn folder ảnh đầu vào
-output_folder = 'output_images/'  # Đảm bảo thay thế bằng đường dẫn folder ảnh đầu ra
+input_folder = 'output_images_scan/'  # Đảm bảo thay thế bằng đường dẫn folder ảnh đầu vào
+output_folder = 'output_images_deskew/'  # Đảm bảo thay thế bằng đường dẫn folder ảnh đầu ra
 
 # Tạo folder đầu ra nếu chưa tồn tại
 if not os.path.exists(output_folder):
